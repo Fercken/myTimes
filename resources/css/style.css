@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+#logo {
+  width: 50%;
+  display: inline-flex;
+  align-items: center;
+}
+
+#logo img {
+  margin-left: 40px;
+}
+
+#myTimes {
+  color: mediumaquamarine;
+  margin-left: 10px;
+}
+
+#menu {
+  width: 50%;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#menu ul {
+  padding: 0 40px;
+}
+
+#menu span {
+  padding: 10px;
+}
+
+#menu a {
+  color: black;
+}
+
+
