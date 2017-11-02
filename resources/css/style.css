@@ -151,7 +151,7 @@ header {
 
 /* 2nd Column/Medium Section */
 .cat-art {
-  background-image: url("/resources/images/myt-cat.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   display: flex;
   height: 300px;
   text-align: center;
