@@ -1,7 +1,25 @@
+/** {
+  border: 1px solid black;
+}*/
+
 body {
   margin: 0;
-  /*border: 1px solid black;*/
 }
+
+p {
+  font-family: Georgia, sans-serif;
+  font-size: 17px;
+  color: black;
+}
+
+.text-on-image {
+  font-family: Georgia, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 0;
+}
+
 
 /* Header Section */
 header {
@@ -54,26 +72,85 @@ header {
 /* Main Content */
 #container {
   position: relative;
- /* border: 1px solid black;*/
   top: 90px;
   display: flex;
   justify-content: space-around;
 }
 
-#large,
-#medium, 
-#small {
-  border: 1px solid black;
-}
-
-#large {
+.large {
   width: 630px;
 }
 
-#medium {
+.medium {
   width: 300px;
 }
 
-#small {
+.small {
   width: 240px;
+}
+
+/* 1st Column/Large Section */
+/*.main-art,
+.earth-art,
+.cam-art {
+  display: flex;
+}*/
+
+.column {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  height: 600px;
+}
+
+.main-art {
+  background-image: url("/resources/images/myt-main.png");
+  height: 300px;
+}
+
+.main-art p {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Georgia, sans-serif;
+  margin: 0;
+}
+
+.orca-art {
+  display: inline-flex;
+  flex-flow: column wrap;
+  width: 299px;
+}
+
+.earth-art {
+  background-image: url("/resources/images/myt-fall.png"); 
+  height: 300px;
+  width: 299px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.burger-art {
+  display: inline-flex;
+  flex-flow: column wrap;
+  width: 299px; 
+}
+
+.cam-art {
+  background-image: url("/resources/images/myt-cameraMan.png.png");
+  display: flex;
+  height: 300px;
+  width: 299px;
+  text-align: center;
+  align-items: center;
+}
+
+/* 2nd Column/Medium Section */
+.cat-art {
+  background-image: url("/resources/images/myt-cat.png");
+  display: flex;
+  height: 300px;
+  text-align: center;
+  align-items: center;
 }
