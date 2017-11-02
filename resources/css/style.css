@@ -107,6 +107,8 @@ header {
 .main-art {
   background-image: url("/resources/images/myt-main.png");
   height: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .main-art p {
@@ -114,7 +116,7 @@ header {
   font-size: 40px;
   font-weight: bold;
   font-family: Georgia, sans-serif;
-  margin: 0;
+  padding-left: 15px;
 }
 
 .orca-art {
