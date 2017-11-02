@@ -126,7 +126,7 @@ header {
 }
 
 .earth-art {
-  background-image: url("/resources/images/myt-fall.png"); 
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png"); 
   height: 300px;
   width: 299px;
   display: flex;
