@@ -72,7 +72,7 @@ header {
 /* Main Content */
 #container {
   position: relative;
-  top: 90px;
+  top: 120px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -141,7 +141,7 @@ header {
 }
 
 .cam-art {
-  background-image: url("/resources/images/myt-cameraMan.png.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   display: flex;
   height: 300px;
   width: 299px;
