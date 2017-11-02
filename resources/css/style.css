@@ -105,7 +105,7 @@ header {
 }
 
 .main-art {
-  background-image: url("/resources/images/myt-main.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   height: 300px;
   display: flex;
   align-items: center;
